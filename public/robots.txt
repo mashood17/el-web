@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://elatocelebre.in/sitemap.xml
