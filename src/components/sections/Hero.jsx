@@ -89,7 +89,7 @@ export default function Hero() {
           transition={{ duration: 1.2, delay: 0.4, ease: [0.22, 1, 0.36, 1] }}
           style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
-            fontSize: isMobile ? "clamp(3.2rem, 18vw, 5rem)" : "clamp(3.8rem, 7vw, 6rem)",
+            fontSize: isMobile ? "clamp(2.7rem, 15vw, 4.2rem)" : "clamp(3.8rem, 7vw, 6rem)",
             fontWeight: 300,
             letterSpacing: isMobile ? "0.09em" : "0.16em",
             color: "#F8F4EC",
@@ -110,7 +110,7 @@ export default function Hero() {
           style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
             fontSize: isMobile
-              ? "clamp(3.2rem, 18vw, 5rem)"
+              ? "clamp(2.7rem, 15vw, 4.2rem)"
               : "clamp(3.8rem, 7vw, 6rem)",
             fontWeight: 300,
             letterSpacing: isMobile ? "0.12em" : "0.18em",
@@ -170,11 +170,11 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 1.15 }}
           style={{
             display: "flex",
-            flexDirection: isMobile ? "column" : "row",
+            flexDirection: "row",
             gap: isMobile ? "12px" : "16px",
             alignItems: "center",
-            width: isMobile ? "100%" : "auto",
-            maxWidth: isMobile ? "280px" : "none",
+            maxWidth: isMobile ? "380px" : "none",
+            justifyContent: "center",
           }}
         >
           {/* Primary CTA */}
@@ -186,7 +186,7 @@ export default function Hero() {
             onMouseLeave={() => setPrimaryHovered(false)}
             style={{
               display: "block",
-              width: isMobile ? "100%" : "auto",
+              flexDirection: "row",
               fontFamily: "'Manrope', sans-serif",
               fontSize: isMobile ? "0.65rem" : "0.62rem",
               fontWeight: 500,
@@ -198,9 +198,10 @@ export default function Hero() {
               background: primaryHovered
                 ? "rgba(181,138,22,0.85)"
                 : "#B58A16",
-              padding: isMobile ? "16px 32px" : "14px 36px",
+              padding: isMobile ? "14px 20px" : "14px 36px",
               border: "1px solid #B58A16",
               transition: "all 0.35s ease",
+              whiteSpace: "nowrap",
             }}
           >
             Explore Cuisine
@@ -221,7 +222,7 @@ export default function Hero() {
             onMouseLeave={() => setSecondaryHovered(false)}
             style={{
               display: "block",
-              width: isMobile ? "100%" : "auto",
+              flexDirection: "row",
               fontFamily: "'Manrope', sans-serif",
               fontSize: isMobile ? "0.65rem" : "0.62rem",
               fontWeight: 400,
@@ -233,9 +234,11 @@ export default function Hero() {
                 : "rgba(248,244,236,0.75)",
               background: "transparent",
               border: `1px solid ${secondaryHovered ? "rgba(248,244,236,0.5)" : "rgba(248,244,236,0.25)"}`,
-              padding: isMobile ? "16px 32px" : "14px 36px",
+              padding: isMobile ? "14px 20px" : "14px 36px",
               cursor: "pointer",
               transition: "all 0.35s ease",
+              whiteSpace: "nowrap",
+              
             }}
           >
             Plan Your Visit
