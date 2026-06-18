@@ -242,8 +242,6 @@ function DesktopRow({ item, index }) {
           {/* CTA */}
           <motion.a
             href="https://el-ce.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
             initial={{ opacity: 0 }}
             animate={inView ? { opacity: 1 } : {}}
             transition={{ duration: 0.7, delay: 0.75 }}
@@ -362,8 +360,6 @@ function MobileRow({ item }) {
 
       <motion.a
         href="https://el-ce.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
         initial={{ opacity: 0 }}
         animate={inView ? { opacity: 1 } : {}}
         transition={{ duration: 0.6, delay: 0.55 }}

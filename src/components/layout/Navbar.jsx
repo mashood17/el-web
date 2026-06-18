@@ -123,8 +123,6 @@ function DesktopNav({ scrolled }) {
       {/* CTA — right */}
       <a
         href="https://el-ce.vercel.app/"
-        target="_blank"
-        rel="noopener noreferrer"
         style={{
           fontFamily: "'Manrope', sans-serif",
           fontSize: "0.62rem",
@@ -217,8 +215,6 @@ function MobileNav({ scrolled }) {
 
         <a
             href="https://el-ce.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
             style={{
                 fontFamily: "'Manrope', sans-serif",
                 fontSize: "0.58rem",

@@ -179,9 +179,7 @@ export default function Hero() {
         >
           {/* Primary CTA */}
           <a
-            href="https://el-ce.vercel.app/"
-            target="_blank"
-            rel="noopener noreferrer"
+            href="#cuisine"
             onMouseEnter={() => setPrimaryHovered(true)}
             onMouseLeave={() => setPrimaryHovered(false)}
             style={{
