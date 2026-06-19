@@ -58,7 +58,7 @@ export default function About() {
           >
             <motion.div style={{ y: imgY, height: "112%", marginTop: "-6%" }}>
               <img
-                src="/assets/images/about.jpg"
+                src="/assets/images/about.webp"
                 alt="ELATŌ CELEBRÉ — The Experience"
                 style={{
                   width: "100%",
@@ -330,7 +330,7 @@ function AboutMobile() {
         transition={{ duration: 1 }}
       >
         <motion.img
-          src="/assets/images/about.jpg"
+          src="/assets/images/about.webp"
           alt="ELATŌ CELEBRÉ"
           style={{
             width: "100%",

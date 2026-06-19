@@ -21,7 +21,7 @@ export default function Hero() {
       {/* Background */}
       <motion.div style={{ y, position: "absolute", inset: "-10% 0", zIndex: 0 }}>
         <img
-          src="/assets/images/hero.jpg"
+          src="/assets/images/hero.webp"
           alt="ELATŌ CELEBRÉ"
           style={{ width: "100%", height: "110%", objectFit: "cover", display: "block" }}
           loading="eager"

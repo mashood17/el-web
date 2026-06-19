@@ -9,7 +9,7 @@ const experiences = [
     subtitle: "The Art of the Scoop",
     description:
       "Slow-churned from Madagascar vanilla pods, Sicilian pistachios, and Belgian couverture. Every flavour is a studied composition — rich in texture, precise in balance, and unmistakably artisanal.",
-    image: "/assets/images/specialty-gelato.jpg",
+    image: "/assets/images/specialty-gelato.webp",
     cta: "View Gelato Selection",
   },
   {
@@ -19,7 +19,7 @@ const experiences = [
     subtitle: "Patisserie & Confections",
     description:
       "Handcrafted daily in our kitchen. New York cheesecakes with biscuit foundations, dark forest gateaux layered with precision, tiramisu soaked in single-origin espresso. Desserts that demand attention.",
-    image: "/assets/images/specialty-dessert.jpg",
+    image: "/assets/images/specialty-dessert.webp",
     cta: "Explore Desserts",
   },
   {
@@ -29,7 +29,7 @@ const experiences = [
     subtitle: "Liquid Craftsmanship",
     description:
       "House-crafted mojitos with fresh mint and premium syrups. Thick indulgent shakes. Truffle-finished bites and brioche sandwiches. A complete café experience presented with the same care as every other element of ELATŌ.",
-    image: "/assets/images/specialty-beverage.jpg",
+    image: "/assets/images/specialty-beverage.webp",
     cta: "Browse Beverages",
   },
 ];

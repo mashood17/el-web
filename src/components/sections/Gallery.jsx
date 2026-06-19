@@ -4,37 +4,37 @@ import { motion, AnimatePresence, useInView } from "framer-motion";
 const galleryItems = [
   {
     id: 1,
-    src: "/assets/images/gallery-1.jpg",
+    src: "/assets/images/gallery-1.webp",
     caption: "Handcrafted Elegance",
     subcaption: "Signature Gelato Collection",
   },
   {
     id: 2,
-    src: "/assets/images/gallery-2.jpg",
+    src: "/assets/images/gallery-2.webp",
     caption: "The Art of Dessert",
     subcaption: "Patisserie & Confections",
   },
   {
     id: 3,
-    src: "/assets/images/gallery-3.jpg",
+    src: "/assets/images/gallery-3.webp",
     caption: "A Space Designed for Desire",
     subcaption: "ELATŌ Interiors",
   },
   {
     id: 4,
-    src: "/assets/images/gallery-4.jpg",
+    src: "/assets/images/gallery-4.webp",
     caption: "Crafted with Intention",
     subcaption: "Beverage Collection",
   },
   {
     id: 5,
-    src: "/assets/images/gallery-5.jpg",
+    src: "/assets/images/gallery-5.webp",
     caption: "Moments Worth Celebrating",
     subcaption: "Celebrations & Gatherings",
   },
   {
     id: 6,
-    src: "/assets/images/gallery-6.jpg",
+    src: "/assets/images/gallery-6.webp",
     caption: "Every Detail Considered",
     subcaption: "The ELATŌ Experience",
   },

@@ -40,7 +40,7 @@ function DesktopCelebrations() {
           boxShadow: "0 32px 80px rgba(0,0,0,0.5)",
         }}>
           <motion.img
-            src="/assets/images/celebrations.jpg"
+            src="/assets/images/celebrations.webp"
             alt="Celebrations at ELATŌ CELEBRÉ"
             style={{ width: "100%", height: "100%", objectFit: "cover", display: "block" }}
             whileHover={{ scale: 1.03 }}
@@ -235,7 +235,7 @@ function MobileCelebrations() {
           }}
         >
           <motion.img
-            src="/assets/images/celebrations.jpg"
+            src="/assets/images/celebrations.webp"
             alt="Celebrations at ELATŌ CELEBRÉ"
             style={{
               width: "100%",

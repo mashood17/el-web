@@ -7,7 +7,7 @@ const stories = [
     eyebrow: "The Space",
     title: "A Setting Designed for Desire",
     body: "From the moment you step inside ELATŌ, the atmosphere shifts. Warm lighting, refined interiors, and carefully considered details create a space that feels both intimate and elevated — a world apart from the ordinary.",
-    image: "/assets/images/cuisine-1.jpg",
+    image: "/assets/images/cuisine-1.webp",
     reverse: false,
   },
   {
@@ -15,7 +15,7 @@ const stories = [
     eyebrow: "The Hospitality",
     title: "Where Every Guest Feels Remembered",
     body: "Exceptional hospitality is not a gesture at ELATŌ — it is a standard. From the precision of our presentation to the warmth of our service, every visit is crafted to feel personal, unhurried, and genuinely memorable.",
-    image: "/assets/images/cuisine-2.jpg",
+    image: "/assets/images/cuisine-2.webp",
     reverse: true,
   },
   {
@@ -23,7 +23,7 @@ const stories = [
     eyebrow: "Celebrations",
     title: "Moments Worth Returning For",
     body: "Birthdays. Anniversaries. Quiet evenings. Grand gestures. ELATŌ becomes the setting for milestones both large and small. We understand that celebrations are not events — they are memories in the making.",
-    image: "/assets/images/cuisine-3.jpg",
+    image: "/assets/images/cuisine-3.webp",
     reverse: false,
   },
 ];
